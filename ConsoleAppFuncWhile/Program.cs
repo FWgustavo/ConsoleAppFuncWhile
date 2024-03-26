@@ -13,11 +13,11 @@ namespace ConsoleAppFuncWhile
             int cont = 0;
             double total = 0;
             string resp;
-            Console.WriteLine("Deseja começar? (S/N)" .ToUpper());
+            Console.WriteLine("Deseja começar? (S/N)");
             resp = Console.ReadLine().ToUpper();
             while(resp == "S")
             {
-                Console.WriteLine("Qual a forma de contratação do funcionário [A-Assalariado,C-Comissado,H-Horista]" .ToUpper());
+                Console.WriteLine("Qual a forma de contratação do funcionário [A-Assalariado,C-Comissado,H-Horista]");
                 string resp2 = Console.ReadLine().ToUpper();
                 switch (resp2) 
                 {
